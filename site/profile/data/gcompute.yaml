@@ -1,0 +1,4 @@
+---
+# profile::cloudcontrol::gcompute 
+profile::cloudcontrol::gcompute:credential: /home/puppet/gcp.json
+profile::cloudcontrol::gcompute:password: MrBob124
