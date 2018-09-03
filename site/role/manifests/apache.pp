@@ -1,5 +1,5 @@
 class role::apache {
 
-  include profile::apache
+  include profile::apache_webserver
 
 }
