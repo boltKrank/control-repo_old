@@ -12,6 +12,5 @@ class profile::apache_webserver {
   #  content => epp('profile/index.html.epp'),
   #}
 
-  exec { 'cp /tmp/index.html /var/www/html/index.html': }
 
 }
