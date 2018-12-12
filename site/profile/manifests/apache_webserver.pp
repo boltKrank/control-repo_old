@@ -7,10 +7,10 @@ class profile::apache_webserver {
     ensure => directory,
   }
 
-  #file {'/var/www/html/index.html':
-  #  ensure  => file,
-  #  content => epp('profile/index.html.epp'),
-  #}
+  file {'/var/www/html/index.html':
+    ensure  => file,
+    content => epp('profile/index.html.epp'),
+  }
 
 
 }
