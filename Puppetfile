@@ -2,6 +2,8 @@ forge 'https://forge.puppet.com'
 mod 'puppetlabs-apache', '3.4.0'
 mod 'puppetlabs-concat', '5.1.0'
 mod 'puppetlabs-stdlib', '5.1.0'
+mod 'puppetlabs-tomcat', '2.4.0'
+mod 'puppetlabs-java', '3.2.0'
 
 # Modules from the Puppet Forge
 # Versions should be updated to be the latest at the time you start
